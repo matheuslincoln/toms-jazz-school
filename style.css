@@ -1,0 +1,279 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200&family=Inter:wght@400;500;600&family=Montserrat:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Teko:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-laranja: #ED4D1B;
+    --color-anarelo: #FF9A3C;
+    --color-body01: #FFE7D1;
+    --color-body02: #FFF2E5;
+}
+
+body {
+    background: linear-gradient(90deg, var(--color-body01) 0%, var(--color-body02) 100%);
+    padding: 0 16px;
+}
+header {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin: 20px;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.botao {
+    width: 225px;
+    height: 48px;
+    background-color: var(--color-laranja);
+    box-shadow: 4px 4px 0px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.b-inscreva {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.conteudo-principal {
+    border: 1px solid black;
+    width: 100%;
+    height: 750px;
+    
+}
+
+.conteudo-secundario {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 100%;
+    height: 750px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content {
+    margin: 64px;
+    width: 500px; 
+}
+
+
+h1 {
+    width: 464px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: black;
+}
+
+.p-container {
+    width: 450px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+.b-comece_agora {
+    margin-top: 30px;
+}
+
+.seta-curvada {
+    width: 97px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+
+.destaque {
+    color: var(--color-laranja);
+}
+
+.risquinhos {
+    width: 39.785px;
+    height: 35.748px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    max-width: 1120px;
+    display: flex;
+    margin: auto;
+}
+.card-laranja {
+    background-color: var(--color-laranja);
+    width: 272px;
+    height: 306px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 0px black ;
+}
+
+.card-amarelo {
+    background-color: var(--color-anarelo);
+    width: 272px;
+    height: 306px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 0px black;
+}
+
+.icones {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+strong {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.p-card {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.seta-card {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    margin-left: auto;
+}
+
+h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.b-conhecer-cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 403px;
+}
+
+.footer-descricao {
+    margin: 90px;
+    width: 272px;
+
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+}
+
+.p-footer {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu-footer {
+    margin: auto;
+    display: block;
+    width: 400px;
+}
+
+a {
+    display: block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 38px;
+} 
+
+form {
+    display: block;
+    width: 600px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+input {
+    width: 560px;
+    height: 48px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 0px black;
+}
+
