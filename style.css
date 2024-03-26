@@ -35,7 +35,7 @@ header {
 
 }
 
-nav {
+.menu {
     display: flex;
 }
 
@@ -277,3 +277,10 @@ input {
     box-shadow: 4px 4px 0px 0px black;
 }
 
+@media screen and (max-width: 1020px){ 
+
+    /* CABEÇALHO */
+    header {
+        flex-direction: column;
+    }
+}
